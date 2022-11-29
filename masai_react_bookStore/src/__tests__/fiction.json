@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Harry Potter and the Philosophers Stone",
+    "author": "JK Rowling",
+    "year": "1997",
+    "price": 499,
+    "img": "https://n2.sdlcdn.com/imgs/a/4/6/Harry-Potter-And-The-Philosophers-SDL237954387-1-5e0d6.jpg"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "JK Rowling",
+    "year": "1998",
+    "price": 599,
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51-gJbWc3qL._SX338_BO1,204,203,200_.jpg"
+  },
+
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": "1993",
+    "price": 300,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865681l/25076674._SY475_.jpg"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "year": "2012",
+    "price": 999,
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/The_Fault_in_Our_Stars.jpg/200px-The_Fault_in_Our_Stars.jpg"
+  },
+  {
+    "title": "The Hound of the Baskervilles",
+    "author": "JK Rowling",
+    "year": "1902",
+    "price": 1199,
+    "img": "https://images-eu.ssl-images-amazon.com/images/I/41U%2BxVr-G-L.jpg"
+  },
+  {
+    "title": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "year": "1887",
+    "price": 629,
+    "img": "https://m.media-amazon.com/images/I/41jNoiUgf3L.jpg"
+  }
+]

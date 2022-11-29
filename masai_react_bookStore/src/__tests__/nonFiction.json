@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Eat That Frog",
+    "author": "Brain Tracy",
+    "year": "2001",
+    "price": 199,
+    "img": "https://www.asianefficiency.com/wp-content/uploads/2012/03/eat-that-frog.jpg"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": "2012",
+    "price": 599,
+    "img": "https://i2.wp.com/www.samuelthomasdavies.com/wp-content/uploads/2021/01/Atomic-Habits-Summary.jpeg?fit=229%2C346&ssl=1"
+  },
+
+  {
+    "title": "Mindset",
+    "author": "Carol Dweck",
+    "year": "2006",
+    "price": 499,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477454785l/32768424._SY475_.jpg"
+  },
+  {
+    "title": "Drive",
+    "author": "Daniel Pink",
+    "year": "2009",
+    "price": 399,
+    "img": "https://m.media-amazon.com/images/I/41DfCl8b1TL.jpg"
+  },
+  {
+    "title": "The 4-Hour Work Week",
+    "author": "Tim Ferriss",
+    "year": "2007",
+    "price": 449,
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/The_4-Hour_Workweek_%28front_cover%29.jpg/220px-The_4-Hour_Workweek_%28front_cover%29.jpg"
+  },
+  {
+    "title": "Who moved my cheese?",
+    "author": "Spencer Johnson",
+    "year": "1998",
+    "price": 99,
+    "img": "https://m.media-amazon.com/images/I/51B7XojAOJL.jpg"
+  }
+]
