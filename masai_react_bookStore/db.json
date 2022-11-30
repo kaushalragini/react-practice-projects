@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "status": true
+    },
+    {
+      "id": 1669778267630,
+      "title": "asasasas asasas",
+      "status": true
+    },
+    {
+      "id": 1669778283912,
+      "title": "asaasasas",
+      "status": false
+    },
+    {
+      "id": 1669779468361,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669780907694,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669780909377,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669780918311,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669780918544,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669780918743,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669781199161,
+      "title": "dfd",
+      "status": false
+    },
+    {
+      "id": 1669781385780,
+      "title": "asaasaaa",
+      "status": false
+    },
+    {
+      "id": 1669799482688,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669799485638,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669799487039,
+      "title": "hello",
+      "status": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
