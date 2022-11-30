@@ -21,6 +21,14 @@ const patchData = (id, patchPayload) => {
 
     }).then((res) => res.json())
 }
+const deleteData = (id) => {
+    return fetch(`http://localhost:3000/posts/${id}`, {
+        method: "DELETE",
+        headers: { 'Content-Type': 'application/json' },
+    }).then((res) => res.json())
+}
+
+
 
 const Todo = () => {
     const [text, setText] = useState("");
@@ -54,12 +62,14 @@ const Todo = () => {
         }
     }
     const clickHandler = () => {
+
         const payload = {
             "id": Date.now(),
             "title": text,
             "status": false
         }
         fetchUpdate(payload)
+        setText("")
     }
     const clickHandler1 = () => {
         setPage(page + 1)
@@ -75,6 +85,12 @@ const Todo = () => {
         patchData(id, patchPayload)
         fetchGetData(page);
     }
+    const deleteHandler = (id) => {
+        deleteData(id)
+        fetchGetData(page)
+    }
+
+
     return (
 
         <div>
@@ -93,7 +109,7 @@ const Todo = () => {
                             {item.id}
                             {item.title}
                             <button onClick={() => toggleHandler(item.id, item.status)} >{item.status ? "Done" : "NOT DONE"}</button>
-                            <button>Delete</button>
+                            <button onClick={() => deleteHandler(item.id)}>Delete</button>
                         </div>
 
                     })
