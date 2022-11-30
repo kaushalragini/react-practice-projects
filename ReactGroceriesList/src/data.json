@@ -1,0 +1,94 @@
+
+ [
+  {
+    "id": 1,
+    "title": "Nivea Whitening Smooth Skin Roll On Deodorant for Women 50 ml",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490830561/nivea-whitening-smooth-skin-roll-on-deodorant-for-women-50-ml-product-images-o490830561-p490830561-0-202203151142.jpg",
+    "mrp": "₹ 199.00",
+    "sellingPrice": "₹ 132.00",
+    "discount": "33%"
+  },
+  {
+    "id": 2,
+    "title": "Nivea Men Fresh Active Roll On Deodorant 50 ml ",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490162338/nivea-men-fresh-active-roll-on-deodorant-50-ml-product-images-o490162338-p490162338-0-202203150039.jpg",
+    "mrp": "₹ 199.00",
+    "sellingPrice": "₹ 132.00",
+    "discount": "33%"
+  },
+  {
+    "id": 3,
+    "title": "B Natural Guava Gush Juice 1 L",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490249967/b-natural-guava-gush-juice-1-l-product-images-o490249967-p490249967-0-202203151704.jpg",
+    "mrp": "₹ 120.00",
+    "sellingPrice": "₹ 60.00",
+    "discount": "50%"
+  },
+  {
+    "id": 4,
+    "title": "Nivea Milk Delights Turmeric Face Wash for Acne Prone Skin 100 ml",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/491439052/nivea-milk-delights-turmeric-face-wash-for-acne-prone-skin-100-ml-product-images-o491439052-p491439052-0-202203151950.jpg",
+    "mrp": "₹ 185.00",
+    "sellingPrice": "₹ 92.00",
+    "discount": "50%"
+  },
+  {
+    "id": 5,
+    "title": "Nivea Aloe Protection SPF 15 Body Lotion 400 ml",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/491694047/nivea-aloe-protection-spf-15-body-lotion-400-ml-product-images-o491694047-p590148261-0-202203150629.jpg",
+    "mrp": "₹ 449.00",
+    "sellingPrice": "₹ 224.00",
+    "discount": "50%"
+  },
+  {
+    "id": 6,
+    "title": "B Natural Mixed Fruit Juice 1 L",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490249971/b-natural-mixed-fruit-juice-1-l-product-images-o490249971-p490249971-0-202203150027.jpg",
+    "mrp": "₹ 120.00",
+    "sellingPrice": "₹ 60.00",
+    "discount": "50%"
+  },
+  {
+    "id": 7,
+    "title": "Nivea Lemon & Oil Shower Gel 250 ml",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490920576/nivea-lemon-oil-shower-gel-250-ml-product-images-o490920576-p490920576-0-202203170215.jpg",
+    "mrp": "₹ 225.00",
+    "sellingPrice": "₹ 168.00",
+    "discount": "25%"
+  },
+  {
+    "id": 8,
+    "title": "Tur / Arhar Dal 2 kg",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/491417390/tur-arhar-dal-2-kg-product-images-o491417390-p491417390-0-202203170610.jpg",
+    "mrp": "₹ 270.00",
+    "sellingPrice": "₹ 196.00",
+    "discount": "27%"
+  }
+  ,
+  {
+    "id": 9,
+    "title": "Parle-G Gold Biscuits 1 kg",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/491335633/parle-g-gold-biscuits-1-kg-product-images-o491335633-p491335633-0-202203150704.jpg",
+    "mrp": "₹ 135.00",
+    "sellingPrice": "₹ 110.00",
+    "discount": "18%"
+  },
+  {
+    "id": 10,
+    "title": "Amul Pure Ghee 1 L (Pouch)",
+    "imgURL":
+      "https://www.jiomart.com/images/product/150x150/490010164/amul-pure-ghee-1-l-pouch-product-images-o490010164-p490010164-0-202203151915.jpg",
+    "mrp": "₹ 485.00",
+    "sellingPrice": "₹ 460.00",
+    "discount": "18%"
+  }
+]
