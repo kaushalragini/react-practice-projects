@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Shute",
+      "type": "fine_dining",
+      "rating": 4.5,
+      "number_of_votes": 588,
+      "price_starts_from": 925,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 2,
+      "name": "Pitone",
+      "type": "ethnic",
+      "rating": 3,
+      "number_of_votes": 572,
+      "price_starts_from": 100,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 3,
+      "name": "Danigel",
+      "type": "fast_food",
+      "rating": 2,
+      "number_of_votes": 189,
+      "price_starts_from": 230,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 4,
+      "name": "Gallemore",
+      "type": "cafe",
+      "rating": 1.5,
+      "number_of_votes": 643,
+      "price_starts_from": 210,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 5,
+      "name": "Downgate",
+      "type": "ethnic",
+      "rating": 5,
+      "number_of_votes": 639,
+      "price_starts_from": 975,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 6,
+      "name": "Tidder",
+      "type": "cafe",
+      "rating": 1.5,
+      "number_of_votes": 561,
+      "price_starts_from": 400,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 7,
+      "name": "Tookill",
+      "type": "casual_dining",
+      "rating": 4,
+      "number_of_votes": 970,
+      "price_starts_from": 250,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 8,
+      "name": "Vahey",
+      "type": "casual_dining",
+      "rating": 4,
+      "number_of_votes": 745,
+      "price_starts_from": 210,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 9,
+      "name": "Bache",
+      "type": "fast_food",
+      "rating": 1.5,
+      "number_of_votes": 977,
+      "price_starts_from": 120,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 10,
+      "name": "Mathouse",
+      "type": "cafe",
+      "rating": 5,
+      "number_of_votes": 466,
+      "price_starts_from": 230,
+      "image": "https://picsum.photos/200"
+    }
+  ],
+  "totalPages": 10
+}

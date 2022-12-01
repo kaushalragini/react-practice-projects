@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "name": "Havock",
+      "type": "casual_dining",
+      "rating": 1,
+      "number_of_votes": 373,
+      "price_starts_from": 360,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 12,
+      "name": "von Grollmann",
+      "type": "ethnic",
+      "rating": 2.5,
+      "number_of_votes": 677,
+      "price_starts_from": 150,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 13,
+      "name": "Duffet",
+      "type": "fast_food",
+      "rating": 5,
+      "number_of_votes": 937,
+      "price_starts_from": 1450,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 14,
+      "name": "Cribbins",
+      "type": "fast_food",
+      "rating": 1,
+      "number_of_votes": 56,
+      "price_starts_from": 100,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 15,
+      "name": "Grellier",
+      "type": "fine_dining",
+      "rating": 4,
+      "number_of_votes": 123,
+      "price_starts_from": 475,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 16,
+      "name": "Dargie",
+      "type": "fast_food",
+      "rating": 2,
+      "number_of_votes": 217,
+      "price_starts_from": 725,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 17,
+      "name": "Meekin",
+      "type": "casual_dining",
+      "rating": 4.5,
+      "number_of_votes": 948,
+      "price_starts_from": 500,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 18,
+      "name": "Franchyonok",
+      "type": "fine_dining",
+      "rating": 4,
+      "number_of_votes": 869,
+      "price_starts_from": 975,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 19,
+      "name": "Bennit",
+      "type": "ethnic",
+      "rating": 3.5,
+      "number_of_votes": 106,
+      "price_starts_from": 180,
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 20,
+      "name": "Stanbrooke",
+      "type": "ethnic",
+      "rating": 4.5,
+      "number_of_votes": 497,
+      "price_starts_from": 925,
+      "image": "https://picsum.photos/200"
+    }
+  ],
+  "totalPages": 10
+}

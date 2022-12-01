@@ -14,6 +14,21 @@ const getData = (page = 1) => {
         .then((res) => res.json())
 }
 
+const updateData = (id, patchPayload) => {
+    return fetch(`http://localhost:3000/posts/${id}`, {
+        method: "PATCH",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(patchPayload)
+
+    }).then((res) => res.json())
+}
+
+const deleteData = (id) => {
+    return fetch(`http://localhost:3000/posts/${id}`, {
+        method: "DELETE",
+        headers: { 'Content-Type': 'application/json' },
+    }).then((res) => res.json())
+}
 
 
 
@@ -70,7 +85,18 @@ const Todo = () => {
     const clickHandlerPrevious = () => {
         setPage(page - 1)
     }
+    const toggleHandler = (id, status) => {
+        const patchPayload = {
+            "status": !status
+        }
+        updateData(id, patchPayload)
+        fetchGetMethod(page)
+    }
+    const deleteHandler = (id) => {
+        deleteData(id);
+        fetchGetMethod(page)
 
+    }
 
 
     return (
@@ -86,14 +112,21 @@ const Todo = () => {
             <div>
                 {
                     todo.map((item) => {
-                        return <div key={item.id}>{item.title}</div>
+                        return <div key={item.id}>
+                            {item.id}
+                            {item.title}
+                            <button onClick={() =>
+                                toggleHandler(item.id, item.status)}>{item.status ? "Done" : "NOT DONE"}</button>
+                            <button onClick={() => deleteHandler(item.id)}>Delete</button>
+                        </div>
+
                     })
                 }
             </div>
 
             <div>Current Page:{page}</div>
             <button onClick={clickHandlerNext}>Next</button>
-            <button disabled={page<=0} onClick={clickHandlerPrevious}>Previous</button>
+            <button disabled={page <= 0} onClick={clickHandlerPrevious}>Previous</button>
 
         </div>
     )
