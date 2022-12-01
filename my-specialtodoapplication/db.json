@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": false
+    },
+    {
+      "id": 1669824444475,
+      "title": "hello ",
+      "status": false
+    },
+    {
+      "id": 1669824456391,
+      "title": "challo",
+      "status": false
+    },
+    {
+      "id": 1669824465391,
+      "title": "naacho",
+      "status": false
+    },
+    {
+      "id": 1669824478191,
+      "title": "kal ",
+      "status": false
+    },
+    {
+      "id": 1669824525907,
+      "title": "main maarunga",
+      "status": false
+    },
+    {
+      "id": 1669828512685,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 1669828523718,
+      "title": "heelllo",
+      "status": false
+    },
+    {
+      "id": 1669828886027,
+      "title": "hghghhgh",
+      "status": false
+    },
+    {
+      "id": 1669829715138,
+      "title": "hekek",
+      "status": false
+    },
+    {
+      "id": 1669829715774,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829716022,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829716172,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829716358,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829747740,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829748224,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829748455,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829749606,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829749805,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829752338,
+      "title": "nndnd",
+      "status": false
+    },
+    {
+      "id": 1669829752942,
+      "title": "",
+      "status": false
+    },
+    {
+      "id": 1669829858372,
+      "title": "ndnnd",
+      "status": false
+    },
+    {
+      "id": 1669830550005,
+      "title": "",
+      "status": false
+    }
+  ]
+}
