@@ -4,7 +4,8 @@ function Pagination({ onChange, current, total }) {
     arr.push(i)
   }
   const style = {
-    border: "2px solid red"
+    border: "2px solid red",
+    color:"yellow"
   }
   return (
     <div data-testid="page-container">
