@@ -1,12 +1,17 @@
 import React from 'react'
-import { AContext } from '../Context/AppContextProvider'
+import { AuthContext } from "../Context/AuthContextProvider";
 export default function Counter() {
-    const ApiContext = React.useContext(AContext);
-    const { count, changeCount } = ApiContext;
+    const { auth, changeAuth } = React.useContext(AuthContext);
+    console.log(auth);
+    const style1 = { backgroundColor: "red", height: "100px", width: "100px" }
+    const style2 = { backgroundColor: "blue", height: "100px", width: "100px" }
     return (
         <div>
-            <h2>{count}</h2>
-            <button onClick={() => { changeCount(1) }}>Add</button>
+            {auth === false ? "You are not login" : "You are logged in"}
+            <button onClick={() => { changeAuth() }}>Click</button>
+            <div style={auth === true ? style1 : style2}>
+                asasasasasa
+            </div>
         </div>
     )
 }

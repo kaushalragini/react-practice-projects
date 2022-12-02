@@ -1,14 +1,20 @@
 import React from "react";
-import { AContext } from "./Context/AppContextProvider";
+import { AppContext } from "./Context/AppContextProvider";
+import AuthContextProvider from "./Context/AuthContextProvider";
+
 import Counter from "./Components/Counter";
 function App() {
-  const { count, changeCount } = React.useContext(AContext);
-
+  const Countapp = React.useContext(AppContext);
+  console.log(Countapp);
+  const { count, clickHandler1, clickHandler2 } = Countapp;
   return (
-    <div className="App">
-      <h1>{count}</h1>
-      <button onClick={() => changeCount(3)}>Click</button>
-      <Counter />
+    <div>
+      <h1> count is : {count}</h1>
+      <button onClick={clickHandler1}>INC</button>
+      <button onClick={clickHandler2}>DEC</button>
+      <AuthContextProvider>
+        <Counter />
+      </AuthContextProvider>
     </div>
   );
 }
