@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  border-radius: 0.25rem;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #9F73AB;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.form button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.form + div > a {
+  color: #9F73AB;
+  text-decoration: none;
+}
+.home {
+  height: 100%;
+  margin: auto;
+}
+.home a {
+  color: #5C2E7E;
+  text-decoration: none;
+}
+
+table {
+  border: 0px solid #ddd;
+}
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  border: none;
+}
+th {
+  color: white;
+  background-color: teal;
+  border: none;
+  border-radius: 0;
+  padding: 0.25rem 0.5rem;
+}
+td {
+  padding: 0.25rem 0.5rem;
+}
+td a {
+  color: #5C2E7E;
+  text-decoration: none;
+}
+
+td a :hover {
+  cursor: pointer;
+}
+
+[data-testid="logout-btn"] {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #9F73AB;
+  width: 100px;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+[data-testid="pagination-container"] button{
+  margin: 0.5rem;
+  border-radius: 10px;
+  border: solid 1px #ececec;
+  padding: 0.5rem 0.75rem;
+}
+[data-testid="sort-container"] button {
+  margin: 0.5rem;
+  border-radius: 10px;
+  border: solid 1px #ececec;
+  padding: 0.5rem 0.75rem;
+}
+[data-testid="pagination-container"] button:hover {
+  cursor: pointer;
+}
+
+[data-testid="pagination-container"] button:disabled {
+  background-color: #ececec;
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+
+[data-testid="products-container"] {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
