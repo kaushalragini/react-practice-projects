@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useSearchParams } from "react-router-dom"
 const FilterComp = () => {
     const [searchParams, setSearchParams] = useSearchParams()
-
     // whenever the page refreshes, we need to check if the URL had any data, before setting the data to an empty array
-
     const initialCategory = searchParams.getAll('category')
-    console.log("initialCategory", initialCategory)
+    // console.log("initialCategory", initialCategory)
     const initialSort = searchParams.getAll("sort")
     const [sort, setSortBy] = useState(initialSort[0] || "")
     const [category, setCategory] = useState(initialCategory || [])
@@ -24,11 +22,9 @@ const FilterComp = () => {
             newCategories.push(e.target.value)
         }
         setCategory(newCategories)
-
     }
     // console.log(category)
     // if the category changes, then update the value in the URL search paramas
-
     useEffect(() => {
         let params = {}
         params.category = category;

@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useLocation } from "react-router-dom"
 import { Link } from "react-router-dom"
-// import { BookWrapper } from '../Pages/Books';
 import styled from "styled-components"
 import { getBooks } from '../Redux/AppData/action';
 import BookCard from './BookCard';
@@ -12,8 +11,6 @@ const BookList = () => {
     const books = useSelector((store) => store.AppReducer.books)
     const location = useLocation()
     const [searchParams] = useSearchParams()
-    // console.log("location", location)
-    // console.log(books)
     useEffect(() => {
         // if I dont have any books in redux, then make an API call
         if (location || books.length === 0) {

@@ -14,7 +14,7 @@ const initialState = {
 export const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
     default:
-      return { state };
+      return state;
     case USER_LOGIN_REQUEST:
       return { ...state, isAuthLoading: true };
     case USER_LOGIN_SUCCESS:

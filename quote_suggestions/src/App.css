@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quote {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quote .quote_card {
+  background-color: whitesmoke;
+  width:40%;
+  height: 22%;
+  border-radius: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:10px;
+  flex-direction: column;
+  
+}
+
+.quote_text{
+  font-size: 20px;
+}
+
+.quote .quote_card .more_qupte_btn {
+  height: 25%;
+  width: 33%
+}

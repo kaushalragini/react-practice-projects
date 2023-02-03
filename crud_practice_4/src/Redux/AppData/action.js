@@ -34,3 +34,28 @@ export const getBooks = (params) => (dispatch) => {
       dispatch(getBookFailure());
     });
 };
+
+// PATCH
+function editBooks(payload) {
+  return function (dispatch) {
+    const id = payload.id;
+    const params = payload.params;
+
+    console.log(params);
+    console.log("aaaa");
+    dispatch({ type: types.EDIT_BOOK_REQUEST });
+    return axios
+      .patch(`http://localhost:8080/books/${id}`, params)
+      .then((res) => {
+        console.log(res);
+        dispatch({ type: types.EDIT_BOOK_SUCCESS });
+        dispatch(getBooks());
+      })
+      .catch((err) => {
+        dispatch({ type: types.EDIT_BOOK_FAILURE });
+      });
+  };
+}
+export { editBooks };
+
+//

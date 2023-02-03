@@ -12,14 +12,10 @@ const Books = () => {
                 <BookWrapper>
                     <BookList />
                 </BookWrapper>
-
             </BookPageWrapper>
-
-
         </div>
     )
 }
-
 export const BookPageWrapper = styled.div`
     display:flex;
     border : 1px solid red;

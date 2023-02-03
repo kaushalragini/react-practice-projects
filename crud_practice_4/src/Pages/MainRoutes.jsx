@@ -5,7 +5,6 @@ import Books from "./Books"
 import EditBook from './EditBook'
 import Login from './Login'
 import SingleBook from './SingleBook'
-
 const MainRoutes = () => {
     return (
         <Routes>
@@ -17,5 +16,4 @@ const MainRoutes = () => {
         </Routes>
     )
 }
-
 export default MainRoutes

@@ -6,11 +6,16 @@ import { Navigate } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 export const RequireAuth = ({ children }) => {
     const location = useLocation()
-    const isAuth = useSelector(store => store.AuthReducer.isAuth)
-    const token = useSelector(store => store.AuthReducer.token)
-    if (false) {
+    console.log(location);
+    const isAuth = useSelector(store => {
+        return store.AuthReducer.isAuth
+    })
+    const token = useSelector(store => {
+        return store.AuthReducer.token
+    })
+    console.log(isAuth, token);
+    if (isAuth === false) {
         return <Navigate to="/login" replace={true} state={{ data: location.pathname }} />
     }
-
     return children;
 }

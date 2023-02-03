@@ -5,7 +5,6 @@ import BookCard from '../Components/BookCard'
 import { getBooks } from '../Redux/AppData/action'
 const SingleBook = () => {
   const books = useSelector(store => {
-    // console.log(store);
     return store.AppReducer.books;
   })
   const location = useLocation()
